@@ -13,4 +13,8 @@ export class AppService {
   getStatus(): string {
     return 'OK';
   }
+
+  getOK(): string {
+    return 'OK';
+  }
 }

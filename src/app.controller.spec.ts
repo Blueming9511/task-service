@@ -32,4 +32,9 @@ describe('AppController', () => {
     });
   });
 
+  describe('ok', () => {
+    it('should return "OK"', () => {
+      expect(appController.getOK()).toBe('OK');
+    });
+  });
 });
