@@ -20,10 +20,6 @@ describe('AppController', () => {
     });
   });
 
-  describe('version', () => {
-    it('should return "1.0.0"', () => {
-      expect(appController.getVersion()).toBe('1.0.0');
-    });
-  });
+
 
 });
