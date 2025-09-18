@@ -9,4 +9,8 @@ export class AppService {
   getVersion(): string {
     return '1.0.0';
   }
+
+  getStatus(): string {
+    return 'OK';
+  }
 }
