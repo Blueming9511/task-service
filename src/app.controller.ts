@@ -20,4 +20,9 @@ export class AppController {
     return this.appService.getStatus();
   }
 
+  @Get('ok')
+  getOK(): string {
+    return this.appService.getOK();
+  }
+
 }

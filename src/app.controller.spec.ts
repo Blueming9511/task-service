@@ -23,9 +23,15 @@ describe('AppController', () => {
 
 
   describe('status', () => {
+    
     it('should return "OK"', () => {
       expect(appController.getStatus()).toBe('OK');
     });
   });
 
+  describe('ok', () => {
+    it('should return "OK"', () => {
+      expect(appController.getOK()).toBe('OK');
+    });
+  });
 });
