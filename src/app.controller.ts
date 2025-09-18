@@ -14,4 +14,10 @@ export class AppController {
   getVersion(): string {
     return this.appService.getVersion();
   }
+
+  @Get('status')
+  getStatus(): string {
+    return this.appService.getStatus();
+  }
+
 }
